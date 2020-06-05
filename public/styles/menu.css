@@ -1,0 +1,94 @@
+@font-face {
+    font-family: LogoFont;
+    src: url(../fonts/ValidityScriptBI_PERSONAL_USE.ttf);
+  }
+
+#topNav{
+    background-color: #303567;
+    text-align: right;
+    font-size: large;
+    color: #F3F4F5;
+}
+#topNav a{
+    color: #F3F4F5;
+    background-color: #675E85;
+    border-radius: 5px;
+}
+#topNav a:hover{
+    background-color: #8494CE;
+}
+.navbar{
+    background-color: #8494CE;
+}
+.navbar-item a{
+color: #F3F4F5;
+font-size: larger;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 500;
+}
+
+.navbar-item a:hover{
+    color: #303567;
+}
+.navbar-brand{
+    font-family:LogoFont;
+    color: #675E85;
+    font-size: 50px;
+    font-weight: 600;
+}
+#slider{
+    width:100%;
+    height:30rem;
+}
+#slider .carousel-caption span{
+    background-color: #303567;
+     font-size:larger;
+      border-radius: 5px;
+       padding: 3px;
+}
+.carousel-inner img {
+    width:100%;
+    height:30rem;
+}
+#sliderPrev{
+    border-radius: 15px;
+    padding: 1rem;
+}
+#sliderNext{
+    border-radius: 15px;
+    padding: 1rem;
+}
+.carousel-indicators li{
+    background-color: #8494CE;
+}
+.card-title{
+    color: #8494CE;
+}
+.card button {
+    background-color: #8494CE;
+    color: #F3F4F5;
+}
+.card{
+    font-weight: 500;
+}
+.card img{
+    height:185px;
+    width:100%;
+}
+#social a{
+    color: #8494CE;
+}
+#social{
+    background-color: #303567;
+}
+#footer, #footer ul a{
+    background-color: #8494CE;
+    color: #F3F4F5;
+}
+#aboutContent{
+    background-color: #303567;
+    color: #F3F4F5;
+}
+#aboutContent h2{
+    color: #8494CE;
+}

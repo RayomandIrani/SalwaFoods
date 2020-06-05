@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salwa Foods</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+    <!-- Latest compiled JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/menu.css"></head>
+<body>
+    <header class="container-fluid p-0">
+        <div id="topNav" class="flex-row">
+          <div id="topNavContent" class="col-md-12 col-sm-12 p-2 ">
+            <label class="px-4" for="topNav"><i class="icon-phone pr-2"></i> 0336 3417912</label>
+            <a href="../public/login.html" class="mr-4 px-3 btn"><i class="icon-signin"></i> Signin</a>
+          </div>
+        </div>
+    
+        <nav class="navbar navbar-expand-lg ">
+          <a href="#" class="navbar-brand">Salwa Foods</a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent">
+            <span class="icon-reorder text-secondary"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item">
+                    <a href="index.html" class="nav-link">HOME</a>
+                  </li>
+                  <li class="navbar-item">
+                    <a href="about.html" class="nav-link">ABOUT</a>
+                  </li>
+                  <li class="navbar-item">
+                    <a href="menu.html" class="nav-link">MENU</a>
+                  </li>
+                  <li class="navbar-item">
+                    <a href="contact.html" class="nav-link">CONTACT</a>
+                  </li>
+            </ul>
+    
+          </div>
+        </nav>
+    
+      </header>
+
+      <div class="container-fluid" style="background-color: #303567;">
+        <h1 class="p-3" style="text-align: center; color: #8494CE;">Menu</h1>
+
+        <div id="sliderRow" class="row w-100 p-0 m-0 pb-4">
+          <div id="slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/Photo_1587741322793.png" alt="First slide">
+                <div class="carousel-caption">
+                  <h2>Deal 1</h2>
+                  <h4>Beef Burger with fries, Beef roll and 300ml drink</h4>
+                  <span>300 Rs.</span>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/Photo_1587741322793.png" alt="Second slide">
+                <div class="carousel-caption">
+                  <h2>Deal 2</h2>
+                  <h4>Chicken Burger with fries, Chicken roll and 300ml drink</h4>
+                  <span>350 Rs.</span>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/Photo_1587741322793.png" alt="Third slide">
+                <div class="carousel-caption">
+                  <h2>Deal 3</h2>
+                  <h4>Chicken Burger with fries and 300ml drink</h4>
+                  <span>250 Rs.</span>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+              <span id="sliderPrev" class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+              <span id="sliderNext" class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+            </a>
+    
+            <ul class="carousel-indicators">
+              <li data-target="#slider" data-slide-to="0" class="active"></li>
+              <li data-target="#slider" data-slide-to="1"></li>
+              <li data-target="#slider" data-slide-to="2"></li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="card-columns" style="text-align: center;" id="menuItems">
+          <div class="card" style="width:300px; text-align: center;">
+            <img class="card-img-top" src="images/beefburger.jpg" >
+            <div class="card-body">
+              <h4 class="card-title">Beef Burger</h4>
+              <p class="card-text"></p>
+              <button class="btn">200 Rs.</button>
+            </div>
+          </div>
+          <div class="card" style="width:300px; text-align: center;">
+            <img class="card-img-top" src="images/chicken burger.jpg" >
+            <div class="card-body">
+              <h4 class="card-title">Chickeen Burger</h4>
+              <p class="card-text"></p>
+              <button class="btn">250 Rs.</button>
+            </div>
+          </div>
+          <div class="card" style="width:300px; text-align: center;">
+            <img class="card-img-top" src="images/sandwich.jpg" >
+            <div class="card-body">
+              <h4 class="card-title">Chicken Sandwich</h4>
+              <p class="card-text"></p>
+              <button class="btn">260 Rs.</button>
+            </div>
+          </div>
+          <div class="card" style="width:300px; text-align: center;">
+            <img class="card-img-top" src="images/club.jpg">
+            <div class="card-body">
+              <h4 class="card-title">Club Sandwich</h4>
+              <p class="card-text"></p>
+              <button class="btn">300 Rs.</button>
+            </div>
+          </div>
+          <div class="card" style="width:300px; text-align: center;">
+            <img class="card-img-top" src="images/bun-kabab_5901.jpg" >
+            <div class="card-body">
+              <h4 class="card-title">Shami Burger</h4>
+              <p class="card-text"></p>
+              <button class="btn">70 Rs.</button>
+            </div>
+          </div>
+          <div class="card" style="width:300px; text-align: center;">
+            <img class="card-img-top" src="images/bun-kabab_5901.jpg" >
+            <div class="card-body">
+              <h4 class="card-title">Aloo Burger</h4>
+              <p class="card-text"></p>
+              <button class="btn">50 Rs.</button>
+            </div>
+          </div>
+          <div class="card" style="width:300px; text-align: center;">
+            <img class="card-img-top" src="images/zingerB.jpg">
+            <div class="card-body">
+              <h4 class="card-title">Zinger Burger</h4>
+              <p class="card-text"></p>
+              <button class="btn">300 Rs.</button>
+            </div>
+          </div>
+          <div class="card" style="width:300px; text-align: center;">
+            <img class="card-img-top" src="images/chickenRoll.jpg" >
+            <div class="card-body">
+              <h4 class="card-title">Chicken Roll</h4>
+              <p class="card-text"></p>
+              <button class="btn">150 Rs.</button>
+            </div>
+          </div>
+          <div class="card" style="width:300px; text-align: center;">
+            <img class="card-img-top" src="images/beefroll.jpg" >
+            <div class="card-body">
+              <h4 class="card-title">Beef Roll</h4>
+              <p class="card-text"></p>
+              <button class="btn">140 Rs.</button>
+            </div>
+          </div>
+          <div class="card" style="width:300px; text-align: center;">
+            <img class="card-img-top" src="images/fries.jpg" >
+            <div class="card-body">
+              <h4 class="card-title">Fries</h4>
+              <p class="card-text"></p>
+              <button class="btn">50 Rs.</button>
+            </div>
+          </div>
+          <div class="card" style="width:300px; text-align: center;">
+            <img class="card-img-top" src="images/coleslaw.jpg" >
+            <div class="card-body">
+              <h4 class="card-title">Coleslaw</h4>
+              <p class="card-text"></p>
+              <button class="btn">20 Rs.</button>
+            </div>
+          </div>
+          <div class="card" style="width:300px; text-align: center;">
+            <img class="card-img-top" src="images/cold-drink-can-500x500.png">
+            <div class="card-body">
+              <h4 class="card-title">Drinks</h4>
+              <p class="card-text"></p>
+              <button class="btn">50 Rs.</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer id="footer" class="page-footer pt-4">
+
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-6 mx-auto" id="map">
+              <h4 class="font-weight-bold text-uppercase mt-3 mb-4">Location</h4>
+              <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.0903269693667!2d67.02940491500289!3d24.860764384053674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f6d52ab5fef%3A0x791390faabdafd15!2sSalwa%20burger!5e0!3m2!1sen!2s!4v1590433956187!5m2!1sen!2s" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+      
+            <div class="col-md-2 mx-auto" id="footerlinks">
+              <h4 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h4>
+              <ul class="list-unstyled">
+                <li>
+                    <a href="index.html"><h5>Home</h5></a>
+                  </li>
+                  <li>
+                    <a href="contact.html"><h5>Contact</h5></a>
+                  </li>
+                  <li>
+                    <a href="about.html"><h5>About</h5></a>
+                  </li>
+                  <li>
+                    <a href="menu.html"><h5>Menu</h5></a>
+                  </li>
+                  
+                
+              </ul>
+            </div>
+      
+            <div class="col-md-4 mx-auto">
+      <h4 class="text-uppercase mt-3 mb-4">Timings</h4>
+      <h5>Monday-Sunday</h5>
+      <h5>12:00 PM - 11:00 PM</h5>
+            </div>
+          </div>
+        </div>
+        
+        <div id="social" class="col-md-12 col-sm-6 text-center">
+          <h4 class="">Connect With Us</h4>
+          <a href="https://www.facebook.com" target="_blank"><i class="icon-facebook-sign icon-2x pl-1"></i></a></i>
+          <a href="https://www.twitter.com" target="_blank"><i class="icon-twitter-sign icon-2x pl-1"></i></a></i>
+          <a href="https://www.instagram.com" target="_blank"><i class="icon-instagram icon-2x pl-1"></i></a></i>
+          <div class="footer-copyright text-center py-3">© 2020 Copyright
+          </div>
+        </div>
+      
+      </footer>
+</body>
+</html>

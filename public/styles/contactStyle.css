@@ -1,0 +1,58 @@
+@font-face {
+    font-family: LogoFont;
+    src: url(../fonts/ValidityScriptBI_PERSONAL_USE.ttf);
+  }
+
+#topNav{
+    background-color: #303567;
+    text-align: right;
+    font-size: large;
+    color: #F3F4F5;
+}
+#topNav a{
+    color: #F3F4F5;
+    background-color: #675E85;
+    border-radius: 5px;
+}
+#topNav a:hover{
+    background-color: #8494CE;
+}
+.navbar{
+    background-color: #8494CE;
+}
+.navbar-item a{
+color: #F3F4F5;
+font-size: larger;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 500;
+}
+
+.navbar-item a:hover{
+    color: #303567;
+}
+.navbar-brand{
+    font-family:LogoFont;
+    color: #675E85;
+    font-size: 50px;
+    font-weight: 600;
+}
+.jumbotronContact h2{
+    color: #8494CE;
+    padding-bottom: 1rem;
+}
+.jumbotronContact h4{
+    color: #F3F4F5;
+}
+.jumbotronContact>div{
+    background-color: #303567;
+}
+#social a{
+    color: #8494CE;
+}
+#social{
+    background-color: #303567;
+}
+#footer, #footer ul a{
+    background-color: #8494CE;
+    color: #F3F4F5;
+}
